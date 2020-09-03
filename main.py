@@ -9,10 +9,10 @@ unit = (input("Enter unit in F/f or C/c: "))
 
 if unit== "c" or unit=="C":
   fTemp = (temp*(9/5) ) + 32
-  print(f"{temp}° in Celsius is equivalent to {fTemp}° Farenheit.")
+  print(f"{temp}° in Celsius is equivalent to {fTemp}° Fahrenheit.")
 
 elif unit=="f" or unit=="F":
   cTemp = (temp-32) * (5/9)
-  print(f"{temp}° in Farenheit is equivalent to {cTemp}° Celsius.")
+  print(f"{temp}° in Fahrenheit is equivalent to {cTemp}° Celsius.")
 else:
   print(f"Invalid unit({unit}).")
